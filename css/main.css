@@ -1,0 +1,85 @@
+/*      Site Coded by ZVestigo https://github.com/zvestigo/ 
+        
+        Site is developed mobile-first, so styles without media query are for mobile
+
+        Theme colors:
+            Primary: #4399a3
+            Secondary: #537275
+            Tertiary: #afeff7 (really only used for footer text)
+            Neutral Bgs: #383838 and #e6e1e1
+            Text colors: white, #616161
+*/
+
+/* Base site rules - Includes color overrides for Bootstrap classes to match site theme */
+body {
+    color: #616161;
+}
+
+.bg-primary {
+    background: #4399a3 !important;
+}
+
+.btn-primary {
+    background: #4399a3;
+    border: #4399a3;
+}
+
+/* .btn-primary:hover,          Decide color for hover & active
+.btn-primary:active {
+
+} */
+
+.text-primary {
+    color: #4399a3;
+}
+
+.bg-secondary {
+    background: #537275 !important;
+}
+
+.text-secondary {
+    color: #537275;
+}
+
+.bg-dark-grey {
+    background: #383838;
+}
+
+.bg-light-grey {
+    background: #e6e1e1;
+}
+
+
+
+/* General Custom Styles */
+header {
+    color: white;
+}
+
+.logo-header {
+    width: 47px;
+    display: inline;
+}
+
+.logo-text {
+    font-size: 1.3em;
+    display: inline;
+    font-variant: small-caps;
+}
+
+footer {
+    color: #afeff7;
+}
+
+/* Homepage Custom Styles */
+
+#hero-home {
+    background-image: url("../img/bible-on-teal.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+}
+
+.carousel-inner {
+    height: 350px;
+}

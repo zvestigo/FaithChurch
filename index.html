@@ -16,26 +16,145 @@
 </head>
 
 <body>
-    <header class="jumbotron">
-        <div class="container">
+    <header id="hero-home">                                    <!-- Header -->
+        <div class="container-fluid">
             <div class="row">
-                <div class="col">
-                    <h1>Faith Evangelical Free Church</h1>
+                <div class="col-1">
+                    <img class="logo-header" src="img/logo-cross.png" alt="logo">
+                </div>
+                <div class="col-3">
+                    <h1 class="logo-text">Faith Evangelical<br>Free Church</h1>
+                </div>
+                <nav class="col navbar navbar-expand-sm navbar-dark sticky-top">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fefcNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="fefcNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Sundays</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Events</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Get Connected</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Giving</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <div class="col-6 offset-6">
+                    <h2><span class="display-font">Presenting Everyone Mature in Christ</span></h2>
+                    <h5>Colossions 1:28</h5>
+                    <a href="#" class="btn btn-primary">GET CONNECTED</a>
                 </div>
             </div>
         </div>
     </header>
 
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>Welcome</h1>
-                <p>Our desire is to love God and to love others and we welcome you to our family! We hope you will find Faith EFC to be a place where you can learn and embrace God's Truth.  We are a Christ-centered, Bible-believing church, affiliated with the Evangelical Free Church of America. Our worship includes traditional hymns as well as contemporary music with a scriptural-based message.</p>
+    <section id="welcome">
+        <div class="container">                       <!-- Main Content -->
+            <div class="row">
+                <div class="col-4">
+                    <h1>Welcome!</h1>
+                </div>
+                <div class="col">
+                    <p>Our desire is to love God and to love others and we welcome you to our family! We hope you will find Faith EFC to be a place where you can learn and embrace God's Truth. We are a Christ-centered, Bible-believing church, affiliated with the <a href="#">Evangelical Free Church of America</a>. Our worship includes traditional hymns as well as contemporary music with a scriptural-based message.</p>
+                    <a href="#" class="btn btn-primary">ABOUT US</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
+
+    <section id="worship-info" class="bg-light-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Join us in Worship</h2>
+                </div>
+                <div class="col-md-6 text-white">
+                    <img class="img-fluid" src="img/worship-team.jpg" alt="Worship Team">
+                    <h3 class="bg-primary d-inline">Service Times</h3>
+                    <div class="bg-dark-grey p-3">
+                        <h4>8:15am</h4>
+                        <p>Outdoor worship service.  Bring your own chair and face mask. Weather permitting. Service will be held indoors if inclement weather.</p>
+                        <h4>9:45am</h4>
+                        <p>Sunday School - check the bulletin announcements for Sunday School options</p>
+                        <h4>11:00am</h4>
+                        <p>Worship Service in sanctuary with Livestream. If you would like to register to attend the 11 am church service in person, <a href="#">Register HERE</a></p>
+                        <p><em>The church building remains closed to other public meetings.</em></p>
+                    </div>
+                </div>
+                <div class="col-md-6 text-white mt-5 pt-5">
+                    <img class="img-fluid" src="img/lecturn.jpg" alt="Lecturn with Bible">
+                    <h3 class="bg-primary d-inline">Previous Sermons</h3>
+                    <div div class="bg-dark-grey p-3">
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur asperiores a, mollitia ipsa necessitatibus dolore illum eius itaque labore ipsam delectus dolorem, totam doloribus dignissimos excepturi. Cumque illo quae excepturi!</p>
+                       <a href="#" class="btn btn-primary">WATCH HERE</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" id="covid-info">
+                <div class="col">
+                    <h4>Please follow CDC distancing guidelines when attending in-person at FEFC</h4>
+                </div>
+                <div class="col">
+                    <h5>Links for COVID-19 Information</h5>
+                    <ul>
+                        <li><a href="#">Centers for Disease Control (CDC)</a></li>
+                        <li><a href="#">Massachusetts Department of Health</a></li>
+                        <li><a href="#">World Health Organization</a></li>
+                        <li><a href="#">Occupational Safety and Health Administration</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="events-carousel" class="bg-secondary text-white">
+        <div class="container">
+            <div id="events-carousel-slide" class="carousel slide py-5" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#events-carousel-slide" data-slide-to="0" class="active"></li>
+                    <li data-target="#events-carousel-slide" data-slide-to="1"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="car-container carousel-item active">
+                        <div class="row">
+                            <div class="col">
+                                <h2>Christmas</h2>
+                            </div>
+                            <div class="col">
+                                    <img src="img/christmas-tree.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="car-container carousel-item">
+                        <div class="row">
+                            <div class="col">
+                                <h2>Event 2</h2>
+                            </div>
+                            <div class="col">
+                                    <img src="img/lecturn.jpg" class="d-block w-100 img-thumbnail" alt="...">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#events-carousel-slide" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#events-carousel-slide" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+          </div>
+        </div>
+    </section>
+
+
     
-    <footer>
+    <footer class="bg-primary text-center p-5">
         <div class="container">
             <div class="row">
                 <div class="col">
@@ -48,7 +167,7 @@
     </footer>
 
     <!-- jQuery, Popper, and Boostrap Scripts-->
-    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
